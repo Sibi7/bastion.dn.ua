@@ -1,0 +1,201 @@
+@media only screen and (max-width: 1024px) {
+    .menu{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+
+}
+
+@media only screen and (max-width: 770px) {
+    .header .fortress {
+        margin-top: 23px;
+    }
+
+    .phone-block {
+        margin-top: 20px;
+    }
+
+    .grid figure {
+        height: auto;
+    }
+
+    .footer h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 27px 0;
+    }
+
+
+    .border-footer {
+        background: #3b3b3b;
+        margin-top: 20px;
+    }
+
+    .
+}
+
+@media only screen and (max-width: 736px) {
+
+    /*page about*/
+
+    .about-margin-top {
+        margin-top: 0;
+        float: left;
+        width: 100%;
+    }
+    .insert-bg {
+        padding: 20px 0;
+    }
+
+    /*end page about*/
+
+    /*page home*/
+    .menu{
+        display: none;
+    }
+    .header nav ul li {
+        display: block;
+        text-transform: uppercase;
+        margin: 0;
+        float: left;
+        padding: 0 0;
+        width: 100%;
+        text-align: center;
+        top: 30%;
+        position: relative;
+        line-height: 40px;
+        transition: 300ms ease;
+        box-sizing: border-box;
+    }
+
+    .header nav ul li:hover {
+        background: #fff;
+        border-bottom: 1px dotted #a9a9a9;
+        border-top: 1px dotted #a9a9a9;
+        box-sizing: border-box;
+        transition: 300ms ease;
+    }
+
+    .header nav ul li a {
+        display: block;
+        width: 100%;
+    }
+
+    .menu {
+        padding: 0;
+    }
+
+    .header nav ul {
+        position: fixed;
+        background-color: rgba(255, 255, 255, .9);
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+        width: 100vw;
+        float: left;
+        z-index: 17;
+        top: 0;
+        border: none;
+    }
+
+    a.menu-link {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 20;
+        font-size: 30px;
+    }
+
+    a.menu-link:hover {
+        color: #333;
+    }
+
+    .header .fortress {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .phone-block {
+        text-align: center;
+        width: 100%;
+    }
+
+    .phone-button {
+        margin: 15px auto;
+        float: none;
+        display: block;
+    }
+
+    .carousel-indicators {
+        left: 50%;
+        top: 122px;
+        height: 20px;
+    }
+
+    .carousel-control .icon-left-open, .icon-right-open {
+        padding-top: 70px;
+    }
+
+    .slider {
+        padding: 15px 15px 0 15px;
+        height: 120px;
+    }
+
+    .content .col-md-12 h3 {
+        text-transform: uppercase;
+        margin-bottom: 3px;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .insert-bg {
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    .grid {
+        width: 100%;
+    }
+
+    figure.effect-layla img {
+        width: 100%;
+
+    }
+
+    .insert-bg {
+        position: relative;
+        display: block;
+        float: left;
+    }
+
+    .grid figure {
+        height: 250px;
+        margin: 30px 0;
+    }
+
+    .carousel-inner {
+        height: 166px;
+    }
+
+    .h1, .h2, .h3, h1, h2, h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    footer .bottom-footer {
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    /*end page home*/
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}
