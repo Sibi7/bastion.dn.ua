@@ -39,10 +39,15 @@
 }
 
 @media only screen and (max-width: 736px) {
-
+    .img-ark {
+        text-align: center;
+        margin: 15px 0;
+    }
 
     /*page contacts*/
-
+    .phone-button {
+        padding: 10px 50px;
+    }
     .bloc-contact {
         width: 28%;
         position: relative;
@@ -167,15 +172,9 @@
         display: block;
     }
 
-    .carousel-indicators {
-        left: 50%;
-        top: 122px;
-        height: 20px;
-    }
 
-    .carousel-control .icon-left-open, .icon-right-open {
-        padding-top: 70px;
-    }
+
+
 
     .slider {
         padding: 15px 15px 0 15px;
@@ -216,7 +215,7 @@
     }
 
     .carousel-inner {
-        height: 166px;
+        height: auto;
     }
 
     .h1, .h2, .h3, h1, h2, h3 {
@@ -235,7 +234,14 @@
 @media only screen and (max-width: 500px) {
 
     /*page contacts*/
-
+    .carousel-control .icon-left-open, .icon-right-open {
+        padding-top: 70px;
+    }
+    .carousel-indicators {
+        left: 50%;
+        top: 122px;
+        height: 20px;
+    }
     .bloc-contact {
         width: 100%;
         position: relative;
@@ -245,7 +251,9 @@
     .contact-map {
         display: none;
     }
-
+    .carousel-inner {
+        height: 147px;
+    }
     /*end page contacts*/
 }
 
